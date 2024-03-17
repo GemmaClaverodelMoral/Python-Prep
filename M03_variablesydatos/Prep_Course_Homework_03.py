@@ -3,10 +3,11 @@
 
 # ## Variables
 
-# 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
+# 1) Crear una variable que contenga un elemento
+# del conjunto de números enteros y luego imprimir por pantalla
 
-# In[7]:
-
+a = 10
+print(a)
 
 
 
