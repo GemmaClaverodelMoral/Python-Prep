@@ -105,6 +105,23 @@
 # 13) Utilizar la función **input()** que permite hacer ingresos por teclado, para encontrar números primos y dar la opción al usario de buscar el siguiente
 
 # In[73]:
+num = 1
+primo = True
+buscar_siguiente = True
+
+while (buscar_siguiente == True):
+    print('Desea buscar el siguiente primo? (1:Si; 2:No):')
+    if (input() !=1):
+        print('No mas primos, OK!')
+        buscar_siguiente = False
+    else:
+        for i in range(2, num):
+            if (num % i == 0):
+                primo = False
+                continue
+        if primo:
+           print(num)
+        num += 1
 
 
 
